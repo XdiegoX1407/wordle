@@ -1,0 +1,150 @@
+.main-container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  border: solid 2px #555;
+  color: white;
+}
+
+.present {
+  background-color: #e5f321;
+  border: solid 2px #e5f321;
+  color: black;
+}
+
+.correct {
+  background-color: #4caf50;
+  border: solid 2px #4caf50;
+  color: black;
+}
+
+.absent {
+  background-color: #aaa;
+  border: solid 2px #aaa;
+  color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.keyboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 570px;
+  margin: 0 auto;
+  gap: 5px;
+  font-size: 1rem;
+}
+
+.keyboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+}
+
+.empty-key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 50px;
+}
+
+.enter-key {
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.delete-key {
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.modal-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.modal-container {
+  width: 500px;
+  border-radius: 5px;
+  min-height: 300px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.puzzle {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.puzzle-word {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .keyboard-container {
+    width: 320px;
+  }
+  .key {
+    width: 27px;
+    height: 28px;
+  }
+  .empty-key {
+    width: 14px;
+    height: 28px;
+  }
+  .enter-key {
+    width: 44px;
+    height: 35px;
+  }
+  .delete-key {
+    width: 44px;
+    height: 35px;
+  }
+  .box {
+    width: 40px;
+    height: 40px;
+  }
+}
