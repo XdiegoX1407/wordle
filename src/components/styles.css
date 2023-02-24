@@ -79,6 +79,7 @@
   height: 60px;
   margin: 2px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .delete-key {
@@ -86,6 +87,7 @@
   height: 60px;
   margin: 2px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .modal-view-container {
