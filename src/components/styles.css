@@ -1,3 +1,16 @@
+header {
+  width: 100%;
+  border-bottom: 2px solid #555;
+  position: relative;
+}
+
+header svg {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+}
+
 .main-container {
   width: 320px;
   margin: 0 auto;
@@ -112,6 +125,7 @@
 .title {
   text-align: center;
   font-size: 36px;
+  color: white;
 }
 
 .puzzle {
@@ -124,6 +138,68 @@
   display: flex;
   justify-content: center;
   margin: 5px;
+}
+
+.instructions-container {
+  width: 450px;
+  background-color: #121213;
+  text-align: left;
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.instructions-container button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: x-large;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.instructions-container h2 {
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+.instructions-container .subtitle {
+  font-size: large;
+}
+
+.instructions-container ul {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.instructions-container li {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+.instructions-container h3 {
+  font-size: medium;
+}
+
+.instructions-container .row {
+  justify-content: left;
+}
+
+.instructions-container .box {
+  width: 40px;
+  height: 40px;
+}
+
+.instructions-container p {
+  font-size: medium;
+}
+
+.instructions-container .new-puzzle {
+  padding: 30px 0;
+  border-top: 2px solid #aaa;
 }
 
 @media (max-width: 600px) {
