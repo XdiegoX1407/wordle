@@ -119,7 +119,7 @@ header svg {
   width: 500px;
   border-radius: 5px;
   min-height: 300px;
-  background-color: white;
+  background-color: rgb(34, 1, 61);
 }
 
 .title {
